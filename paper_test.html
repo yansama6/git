@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/paper_test.css" rel="stylesheet" media="screen">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/paper_test.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="col-md-2 sidebar">
+        <div class="row">
+            <!-- uncomment code for absolute positioning tweek see top comment in css -->
+            <div class="absolute-wrapper"> </div>
+            <!-- Menu -->
+            <div class="side-menu">
+                <nav class="navbar navbar-default" role="navigation">
+                    <!-- Main Menu -->
+                    <div class="side-menu-container">
+                        <ul class="nav navbar-nav">
+                            <!-- Dropdown-->
+                            <li class="panel panel-default" id="dropdown">
+                                <a data-toggle="collapse" href="#dropdown-lvl1">
+                                    <span class="glyphicon glyphicon-user"></span> 选择题<span class="caret"></span>
+                                </a>
+
+                                <!-- Dropdown level 1 -->
+                                <div id="dropdown-lvl1" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="#">１</a></li>
+                                            <li><a href="#">２</a></li>
+                                            <li><a href="#">３</a></li>
+
+                                            <!-- Dropdown level 2 -->
+                                            <li class="panel panel-default" id="dropdown">
+                                                <a data-toggle="collapse" href="#dropdown-lvl2">
+                                                    <span class="glyphicon glyphicon-off"></span> 选择题<span class="caret"></span>
+                                                </a>
+                                                <div id="dropdown-lvl2" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <ul class="nav navbar-nav">
+                                                            <li><a href="#">１</a></li>
+                                                            <li><a href="#">２</a></li>
+                                                            <li><a href="#">３</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                        </ul>
+                    </div>
+
+            </div>
+        </div>  		</div>
+    <div class="col-md-10 content">
+
+        <div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-list">1.下列哪种语言是世界上最好的语言？</span>
+                </div>
+                <div >
+                    <div class="form-check">
+                        <label>
+                            <input type="radio" name="radio" checked> <span class="label-text">A.PHP</span>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label>
+                            <input type="radio" name="radio"> <span class="label-text">B.Python</span>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label>
+                            <input type="radio" name="radio"> <span class="label-text">C.Java</span>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label>
+                            <input type="radio" name="radio"> <span class="label-text">D.C</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<footer class="pull-left footer">
+    <p class="col-md-12">
+    <hr class="divider">
+    Copyright &COPY; 2018 <a href="#">swfu</a>
+    </p>
+</footer>
+</div>
+
+</body>
+</html>
