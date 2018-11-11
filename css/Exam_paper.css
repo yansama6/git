@@ -1,0 +1,8 @@
+#radioBtn .notActive{
+    color: #3276b1;
+    background-color: #fff;
+}
+
+.modal-dialog{
+    width: 1000px;
+}
